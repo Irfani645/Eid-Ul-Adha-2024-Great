@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 36px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+.hidden {
+    display: none;
+}
+
+#specialMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000;
+}
+
+#personalizedMessage {
+    font-size: 24px;
+    color: #34495e;
+    margin-top: 20px;
+}
+
+#mainGreeting {
+    font-size: 42px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animated {
+    animation: fadeIn 2s ease-in-out;
+}
